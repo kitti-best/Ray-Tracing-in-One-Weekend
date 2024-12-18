@@ -80,7 +80,7 @@ class camera {
 
         vec3 ray_dir = pixel_sample - center;
 
-        ray ray(center, ray_dir);
+        ray ray(center, ray_dir, random_double());
         return ray;
     }
 

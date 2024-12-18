@@ -1,2 +1,9 @@
-Sample image:<br>
-![image-w800](https://github.com/user-attachments/assets/60650738-0722-4a8b-bb69-683e3a4f3a44)
+# Ray tracing in one weekend
+A project implementation follow [Ray tracing in one weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) tutorial.
+
+Run using
+```c
+g++ main.cpp -o main; ./main
+```
+
+The out put will be named image.ppm you need extension to view it.
